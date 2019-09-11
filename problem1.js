@@ -23,13 +23,4 @@ let rotation = (matrix, k) => {
 	return matrix;
 }
 
-// let  grid = [
-// 		[0, 16,  255],
-// 		[8, 128,  32],
-// 		[0,   0,   0]	
-// ]
-
-// let result = rotation(grid, -4);
-// console.log(result);
-
 module.exports = rotation;
