@@ -9,7 +9,6 @@ let isNumber = (k) => {
 let rotation = (matrix, k) => {
 
 	let isNum = isNumber(k);
-	// console.log(isNum);
 	if(isNum){
 		let total_rotation = k%4;
 		if (total_rotation === 4 || total_rotation === 0 || total_rotation === -4) return matrix;
